@@ -10,6 +10,7 @@ gsap.from(
         //another way to use it. animate from end element
         stagger:{
             each: 0.5,
+            //it will start from the last element
             from: "end"     
         },
         //another way to use it. Use it as callback function
